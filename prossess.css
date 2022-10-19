@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    /* border: 3px solid blue; */
+}
+
+.box1{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    line-height: 45px;
+}
+
+.box2{
+    background: url(./img/arrow.jpg);
+    background-size: 100% 100%;
+    position: absolute;
+	width: 13vw;
+	height: 10vh;
+	bottom: 10vh;
+	right: 17vw;
+	cursor: pointer;
+}
+
+.box2:hover{
+
+}
