@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+.lingan_1 {  position: absolute; top: 0; left: 0; width: 90%; height: 100%;  }
+
 html{
     /*设置rem的比值  100vw/1030*50 */
     font-size: 4.8543689320388vw;
@@ -13,9 +15,10 @@ html{
     width: 100vw;
     height: 100vh;
     margin: 0 auto;
-    background-image: url(./img/bg.jpg);
+    background-image: url(../img/bg.jpg);
     background-size: 100% 200%; 
     animation: move 0.5s steps(2) infinite;
+    position: relative;
     /* float: left; */
 }
 
@@ -29,112 +32,130 @@ html{
     }
 }
 
-/* .words01{
-    width: 2.79rem;
+.words01{
+    width: 5.58rem;
     height: 0.78rem;
-    background-image: url(./img/a01.png);
-    background-size: 200% 100%; 
+    background-image: url(../img/a01.png);
+    background-size: 100% 100%; 
     position: absolute;
     top: 2rem;
-    left: 7rem;
+    left: 8rem;
     animation: move1 2s;
 }
 
 @keyframes move1{
-    from{
-        background-position: -5.58rem 0;
-    }
-
-    to{
-        background-position: 0 0;
-    }
+     0%{
+        opacity: 0;
+      }
+      30% {
+        opacity: 0.25;
+      }
+      68%{
+        opacity: 0.5;
+      }
+      72% {
+        opacity: 0.75;
+      }
+      100% {
+        opacity: 1;
+      }
 }
 
 .words02{
-    width: 3.07rem;
+    width: 6.14rem;
     height: 0.76rem;
-    background-image: url(./img/a02.png);
-    background-size: 200% 100%; 
+    background-image: url(../img/a02.png);
+    background-size: 100% 100%; 
     position: absolute;
     top: 3rem;
-    left: 5rem;
+    left: 4.8rem;
     animation: move2 2s;
     animation-delay: 2s;
 }
 
 @keyframes move2{
-    from{
-        background-position: 6.14rem 0;
-    }
+    0%{
+        opacity: 0;
+      }
+      30% {
+        opacity: 0.25;
+      }
+      68%{
+        opacity: 0.5;
+      }
+      72% {
+        opacity: 0.75;
+      }
+      100% {
+        opacity: 1;
+      }
+}
 
-    to{
-        background-position: 0 0;
-    }
-} */
-
-/* .words03{
-    width: 6.14rem;
+   .words03{
+    width: 8.86rem;
     height: 0.76rem;
-    background-image: url(./img/a03.png);
-    background-size: 200% 100%; 
+    background-image: url(../img/a03.png);
+    background-size: 100% 100%; 
     position: absolute;
     top: 4rem;
-    left: 5rem;
+    left: 7rem;
     animation: move3 2s;
-    animation-delay: 2s;
+    animation-delay: 4s;
 }
 
 @keyframes move3{
-    from{
-        background-position: 6.14rem 0;
-    }
-
-    to{
-        background-position: 0 0;
-    }
+    0%{
+        opacity: 0;
+      }
+      30% {
+        opacity: 0.25;
+      }
+      68%{
+        opacity: 0.5;
+      }
+      72% {
+        opacity: 0.75;
+      }
+      100% {
+        opacity: 1;
+      }
 }
 
 .words04{
-    width: 5.58rem;
+    width: 9.48rem;
     height: 0.78rem;
-    background-image: url(./img/a04.png);
-    background-size: 200% 100%; 
+    background-image: url(../img/a04.png);
+    background-size: 100% 100%; 
     position: absolute;
     top: 5rem;
-    left: 7rem;
+    left: 2.7rem;
     animation: move4 2s;
+    animation-delay: 6s;
 }
 
 @keyframes move4{
-    from{
-        background-position: 0 0;
-    }
-
-    to{
-        background-position: 5.58rem 0;
-    } 
-}*/
-
-.words01{
-    line-height: 2rem;
-    color: darkblue;
-    margin-left: 7rem;
+    0%{
+        opacity: 0;
+      }
+      30% {
+        opacity: 0.25;
+      }
+      68%{
+        opacity: 0.5;
+      }
+      72% {
+        opacity: 0.75;
+      }
+      100% {
+        opacity: 1;
+      } 
 }
 
-.words02{
-    line-height: 2rem;
-    color: darkblue;
-    margin-left: 6rem;
-}
-
-.words03{
-    line-height: 2rem;
-    color: darkblue;
-    margin-left: 4rem;
-}
-
-.words04{
-    line-height: 2rem;
-    color: darkblue;
-    margin-left: 3rem;
-}
+/* .continue{
+    width: 1rem;
+    height: 1rem;
+    position: absolute;
+    background-image: url(./img/000.png);
+    bottom: 2rem;
+    right: 2rem;
+} */
