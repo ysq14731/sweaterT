@@ -15,7 +15,7 @@ html{
     width: 100vw;
     height: 100vh;
     margin: 0 auto;
-    background-image: url(../img/bg.jpg);
+    background-image: url(img/bg.jpg);
     background-size: 100% 200%; 
     animation: move 0.5s steps(2) infinite;
     position: relative;
@@ -35,7 +35,7 @@ html{
 .words01{
     width: 5.58rem;
     height: 0.78rem;
-    background-image: url(../img/a01.png);
+    background-image: url(img/a01.png);
     background-size: 100% 100%; 
     position: absolute;
     top: 2rem;
@@ -64,7 +64,7 @@ html{
 .words02{
     width: 6.14rem;
     height: 0.76rem;
-    background-image: url(../img/a02.png);
+    background-image: url(img/a02.png);
     background-size: 100% 100%; 
     position: absolute;
     top: 3rem;
@@ -94,7 +94,7 @@ html{
    .words03{
     width: 8.86rem;
     height: 0.76rem;
-    background-image: url(../img/a03.png);
+    background-image: url(img/a03.png);
     background-size: 100% 100%; 
     position: absolute;
     top: 4rem;
@@ -124,7 +124,7 @@ html{
 .words04{
     width: 9.48rem;
     height: 0.78rem;
-    background-image: url(../img/a04.png);
+    background-image: url(img/a04.png);
     background-size: 100% 100%; 
     position: absolute;
     top: 5rem;
