@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>出发吧</title>  
+  <script language="javascript">
+   content = "秋风袭来,带着徐徐凉意，是时候为自己挑选新衣服了，不如买一件羊毛衫吧！";
+   i = 0;
+   function show(){  
+   str  = content.substr(0,i); 
+   txt.innerHTML = str + "_"; 
+   i++; 
+   if (i>content.length)i=0; 
+   setTimeout("show()",200); }
+  </script>
+ </head>
+ <body onLoad="show()">
+  <style>
+   html{
+    width: 1030px;
+    height: 640px;
+    margin: 0px auto;
+   }
+   body{
+    margin: 0px auto;
+    width: 100%;
+    height: 100%;
+    background-image: url("img/three1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: contain;    
+   }
+   img{
+    position: absolute;
+    top: 460px;
+    left: 515px;
+   }
+   .content{
+    position: absolute;
+    margin: 0 auto;
+    font-size: 30px;
+   }
+  </style>
+  < a href=" ">< img src="img/chufa.png"> </ a>
+           <div id="body"></div>
+           <div id="img"></div>
+  <div id="txt"></div>
+ </body>
+</html>
