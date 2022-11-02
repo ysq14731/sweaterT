@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" http-equiv="content-type" content="text/html">
+		<meta name="viewport" content="width=device-width,initial-scale=1,
+		maximum-scale=1,user-scalable=no">
+		<title>濮院羊毛衫</title>
+		<style type="text/css">
+			*{
+				padding: 0;
+				margin: 0;
+			}
+			
+			.box{
+				height:640px;
+				width: 4000px;
+				background-image: url(img/ditu1.png);
+				overflow-x: auto;
+				display: flex;
+				position: relative;
+			}
+			
+			.sweater{
+				width:530px;
+				height:500px;
+				background-image: url(img/sweater.png);
+				margin: 60px;
+			}
+			
+			.sweater:hover{
+				transform: scale(1.1,1.1);
+				transition-duration: 0.5s;
+			}
+			
+			.ModelFactory{
+				width: 654px;
+				height: 455px;
+				background-image: url(img/ModelFactory.png);
+				position: absolute;
+				right: 428px;
+				bottom: 173px;
+			}
+			
+			.ModelFactory:hover{
+				transform: scale(1.1,1.1);
+				transition-duration: 0.5s;
+			}
+			
+			.FashionCenter{
+				width: 463px;
+				height: 255px;
+				background-image: url(img/FashionCenter.png);
+				position: absolute;
+				right: 2385px;
+				bottom: 270px;
+			}
+			
+			.FashionCenter:hover{
+				transform: scale(1.1,1.1);
+				transition-duration: 0.5s;
+			}
+			
+			.WoolFactory{
+				width: 589px;
+				height: 476px;
+				background-image: url(img/WoolFactory.png);
+				position: absolute;
+				right: 1370px;
+				bottom: 140px;
+			}
+			
+			.WoolFactory:hover{
+				transform: scale(1.1,1.1);
+				transition-duration: 0.5s;
+			}
+			
+			.gjtzc{
+				width: 360px;
+				height: 240px;
+				background-image: url(img/gjtzc.png);
+				position: absolute;
+				right: 1975px;
+				bottom: 150px;
+			}
+			
+			.gjtzc:hover{
+				transform: scale(1.1,1.1);
+				transition-duration: 0.5s;
+			}
+			
+			.car{
+				width: 58px;
+				height: 50px;
+				background-image: url(img/car.png);
+				position: absolute;
+				right: 3360px;
+				bottom: 410px;
+			}
+			
+			.car:hover{
+				transform: scale(1.1,1.1);
+				transition-duration: 0.5s;
+			}
+			
+			.underside{
+				width: 4000px;
+				height: 640px;
+				background-image: url(img/underside.png);
+				background-size: 100% 300%;
+				animation: under 3s steps(3) infinite;
+				position: absolute;
+				bottom:0;
+			}
+			
+			@keyframes under{
+				from{background-position: 0 0;}
+				to{background-position: 0 1730px;}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="box">
+			<div class="sweater"></div>
+			<div class="FashionCenter"></div>
+			<div class="gjtzc"></div>
+			<div class="WoolFactory"></div>
+			<div class="ModelFactory"></div>
+			<div class="car"></div>
+			<div class="underside"></div>
+		</div>
+	</body>
+</html>
