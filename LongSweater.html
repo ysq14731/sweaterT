@@ -2,8 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8" http-equiv="content-type" content="text/html">
-		<meta name="viewport" content="width=device-width,initial-scale=1,
-		maximum-scale=1,user-scalable=no">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 		<title>濮院羊毛衫</title>
 		<style type="text/css">
 			*{
@@ -112,21 +111,46 @@
 				bottom:0;
 			}
 			
-			@keyframes under{
+			/*@keyframes under{
 				from{background-position: 0 0;}
 				to{background-position: 0 1730px;}
-			}
+		}*/
+		@media screen and (orientation:portrait) {
+      /*竖屏样式*/
+      body {
+        transform-origin: 0 0;
+        transform: rotateZ(90deg) translateY(-100%);
+      }
+    }
 		</style>
 	</head>
 	<body>
 		<div class="box">
-			<div class="sweater"></div>
+			<a href="sheepfold.html"<div class="sweater"></div>
 			<div class="FashionCenter"></div>
 			<div class="gjtzc"></div>
 			<div class="WoolFactory"></div>
 			<div class="ModelFactory"></div>
 			<div class="car"></div>
-			<div class="underside"></div>
+			<!--<div class="underside"></div>-->
+			<script>
+    (function () {
+      function resize() {
+        var body = document.getElementsByTagName('body')[0];
+        var html = document.getElementsByTagName('html')[0];
+        var width = html.clientWidth;
+        var height =  html.clientHeight;
+        var max = width > height ? width : height;
+        var min = width > height ? height : width;
+        body.style.width = max + "px";
+        body.style.height = min + "px";
+      }
+      resize();
+      window.addEventListener("resize", resize)
+    })();
+    
+    
+  </script>
 		</div>
 	</body>
 </html>
