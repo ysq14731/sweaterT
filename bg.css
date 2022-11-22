@@ -17,6 +17,7 @@ html{
       transform-origin: 0 0;
       transform: rotateZ(90deg) translateY(-100%);
     }
+}
 
 .box1{
     width: 100vw;
