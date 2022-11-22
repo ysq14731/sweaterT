@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+html{
+    /*设置rem的比值  100vw/1030*50 */
+    font-size: 4.8543689320388vw;
+    background-color: antiquewhite;
+}
+
+/* @media screen and (orientation:portrait) {
+
+    body {
+      transform-origin: 0 0;
+      transform: rotateZ(90deg) translateY(-100%);
+    }
+  } */
+
+
+.sheepfold{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(img/羊圈背景.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.plant{
+    width: 100vw;
+    height: 55vh;
+    background-image: url(img/植物.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    position: absolute;
+    bottom: 0;
+}
+
+.shadow{
+    width: 61.2621vw;
+    height: 55.9375vh;
+    background-image: url(img/羊投影.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 38.5vh;
+    left: 20vw;
+}
+
+#sheep1{
+    width: 20.2913vw;
+    height: 25.1263vh;
+    background-image: url(img/羊1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 35vh;
+    left: 20vw;
+}
+
+#sheep2{
+    width: 15.7282vw;
+    height: 25vh;
+    background-image: url(img/羊2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 28vh;
+    left: 29vw;
+}
+
+#sheep3{
+    width: 19.3204vw;
+    height: 29.2188vh;
+    background-image: url(img/羊3.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 24vh;
+    left: 46vw;
+}
+
+#sheep4{
+    width: 15.4369vw;
+    height: 27.0313vh;
+    background-image: url(img/羊4.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 47vh;
+    left: 63.5vw;
+}
+
+#sheep5{
+    width: 14.0777vw;
+    height: 18.9063vh;
+    background-image: url(img/羊5.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 27vh;
+    left: 66vw;
+}
+
+#sheep6{
+    width: 18.1553vw;
+    height: 25.3125vh;
+    background-image: url(img/羊6.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 63.5vh;
+    left: 32vw;
+}
+
+#arrow{
+    width: 6.3107vw;
+    height: 13.5938vh;
+    background-image: url(img/箭头.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 10vh;
+    left: 85vw;
+}
+
+#arrow2{
+    width: 10vw;
+    height: 10vh;
+    background-image: url(img/箭头2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 80vh;
+    left: 85vw;
+    display: none;
+}
