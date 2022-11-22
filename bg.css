@@ -11,14 +11,6 @@ html{
     background-color: antiquewhite;
 }
 
-@media screen and (orientation:portrait) {
-
-    body {
-      transform-origin: 0 0;
-      transform: rotateZ(90deg) translateY(-100%);
-    }
-}
-
 .box1{
     width: 100vw;
     height: 100vh;
