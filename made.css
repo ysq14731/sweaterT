@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#first{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(img/背景.png);
+    background-size: 100% 100%;
+    position: relative;
+}
+
+#vat{
+    width: 12vw;
+    height: 27vh;
+    background-image: url(img/染缸.png);
+    background-size: 100% 100%;
+    position: absolute;
+    top: 10vh;
+    left: 10vw;
+    cursor: pointer;
+}
+
+#style{
+    width: 13vw;
+    height: 27vh;
+    background-image: url(img/款式.png);
+    background-size: 100% 100%;
+    position: absolute;
+    top: 50vh;
+    left: 10vw;
+    cursor: pointer;
+}
+
+#choose{
+    width: 20vw;
+    height: 30vh;
+    background-image: url(img/按钮.png);
+    background-size: 100% 100%;
+    position: absolute;
+    top: 10vh;
+    right: 10vw;
+    cursor: pointer;
+}
+
+#sweater1{
+    width: 45vw;
+    height: 75vh;
+    background-image: url(img/01__01.png);
+    background-size: 100% 100%;
+    position: absolute;
+    top: 15vh;
+    left: 27vw;
+}
+
+#sweater2{
+    width: 38vw;
+    height: 75vh;
+    background-image: url(img/02__01.png);
+    background-size: 100% 100%;
+    position: absolute;
+    top: 15vh;
+    left: 30vw;
+    display: none;
+}
+
+#sweater3{
+    width: 22vw;
+    height: 78vh;
+    background-image: url(img/03__01.png);
+    background-size: 100% 100%;
+    position: absolute;
+    top: 15vh;
+    left: 37vw;
+    display: none;
+}
+
+#sweater4{
+    width: 33vw;
+    height: 70vh;
+    background-image: url(img/04__01.png);
+    background-size: 100% 100%;
+    position: absolute;
+    top: 15vh;
+    left: 32vw;
+    display: none;
+}
