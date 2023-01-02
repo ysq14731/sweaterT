@@ -4,20 +4,11 @@
 }
 
 
-
 html{
     /*设置rem的比值  100vw/1030*50 */
     font-size: 4.8543689320388vw;
     background-color: antiquewhite;
 }
-
-/* @media screen and (orientation:portrait) {
-
-    body {
-      transform-origin: 0 0;
-      transform: rotateZ(90deg) translateY(-100%);
-    }
-  } */
 
 
 .sheepfold{
@@ -123,7 +114,7 @@ html{
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: absolute;
-    top: 10vh;
+    top: 1vh;
     left: 85vw;
 }
 
