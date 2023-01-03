@@ -1,0 +1,136 @@
+body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background:url(img/beijing.PNG);
+  background-repeat:no-repeat;
+  background-size:100%;		
+		}
+.bjimg {
+	      position: fixed;
+	      top: 0;
+	      left: 0;
+	      width: 100%;
+	      height: 100%;
+	      min-width: 1000px;
+	      z-index: -10;
+	      zoom: 1;
+	      background-image: url("img/background.PNG") ;
+	      background-repeat: no-repeat;
+	      background-size: cover;
+	      -webkit-background-size: cover;
+	      -o-background-size: cover;
+	      background-position: center 0;
+		  animation: action 3.5s linear infinite; } 
+		  @keyframes action{ 25%{opacity: 0.5} 50%{opacity: 0.1} 75%{opacity: 0.5} 100%{opacity: 0.9}
+	    }
+.zzz{
+		position: absolute;
+		left:27%;
+		top:8%;
+		width: 120px;
+		height: 90px;
+		animation: action 1s linear infinite; }
+		@keyframes action{ 25%{opacity: 0.5} 50%{opacity: 0.1} 75%{opacity: 0.5} 100%{opacity: 0.9}
+	}
+.heiyang{
+		position: absolute;
+		left:50%;
+		top:50%;
+		transform:translate(-50%,-50%);
+	}
+.baimao{
+		position: absolute;
+		left:53%;
+		top:50%;
+		transform: translate(-50%,-50%);
+		width: 420px;
+		height: 340px;
+	}
+.shuazi{
+		position: absolute;
+		width: 80px;
+		height: 120px;
+		left: 15%;
+		top: 20%;
+	}
+.shuazi:hover{
+		transform: scale(1.1,1.1);
+		transition-duration: 0.5s;
+	}
+.tidao{
+		position: absolute;
+		width: 80px;
+		height: 120px;
+		left: 15%;
+		top: 52%;
+	}
+.tidao:hover{
+		transform: scale(1.1,1.1);
+		transition-duration: 0.5s;
+		
+	}
+.jiantou{
+		position: absolute;
+		left: 80%;
+		top: 5%;
+	}
+.jiantou:hover{
+		transform: scale(1.1,1.1);
+		transition-duration: 0.5s;
+	}
+.tong{
+	position: absolute;
+	left: 68%;
+	top: 70%;	
+	width: 200px;
+	height: 180px;
+	}
+
+.mao1{
+		display: none;
+		position: absolute;
+		left: 68%;
+		top: 55%;	
+		width: 200px;
+		height: 200px;
+		
+	}
+.mao2{
+		display: none;
+		position: absolute;
+		left: 68%;
+		top:45%;	
+		width: 200px;
+		height: 200px;
+	}
+.mao3{
+		display: none;
+		position: absolute;
+		left: 68%;
+		top:35%;	
+		width: 200px;
+		height: 200px;
+	}
+#myProgress {
+	  width: 10%;
+	  background-color: #ddd;
+	  position: absolute;
+	  left: 80%;
+	  top: 88%;
+	}
+	
+#myBar {
+	  width: 10%;
+	  height: 30px;
+	  background-color:black;
+	  text-align: center;
+	  line-height: 30px;
+	  color: white;
+	  margin-top: 30px;
+	  margin-left: -150px;
+	  position: absolute;
+	}
+	
+	
